@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">karthik7.com</div>
+      <form class="search" id="form">
+        <input type="text" class="ip1" id='search' placeholder="Enter the movie name" />
+        <button class="bt1" id='search' type="submit">Search</button>
+      </form>
+      <ul class="nav-links">
+        <input type="checkbox" name="hamburger" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu">
+          <li><a href="" id='home' class="bt">Home</a></li>
+          <li><a href="">Trending</a></li>
+          <li class="services">
+            <a href="#">Filter</a>
+            <ul class="dropdown">
+              <li><a href="#" id="marvel">Marvel</a></li>
+              <li><a href="#" id="dc">DC</a></li>
+              <li><a href="#" id="warner">Warner-Bro's</a></li>
+              <li><a href="#" id="nolan">Nolan-Movies</a></li>
+            </ul>
+          </li>
+          <li><a href="">Premium</a></li>
+          <li><a href="">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+    <div class="nav2">
+      <form class="search1" id="form1">
+        <input type="text" class="ip2" id='search1' placeholder="Enter the movie name" />
+        <button class="bt2" id='search1' type="submit">Search</button>
+      </form>
+    </div>
+    <main id="main">
+      <div class="movie">
+        <div class="part1">
+          <img src="./Images/Image1.jpg" alt="Movie_Image" class="movie_img" />
+        </div>
+        <div class="part2">
+          <div class="sub-part1">
+            <h1 class="title">Vikram</h1>
+          </div>
+          <div class="sub-part2">
+            <h2 class="rating">Rating : 9.9/10</h2>
+          </div>
+          <div class="sub-part3">
+            <p>
+              Amar is assigned to investigate a case of serial killings. When
+              Amar investigates the case, he realizes it is not what it seems to
+              be and following down this path will lead to nothing but war
+              between everyone involved
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
